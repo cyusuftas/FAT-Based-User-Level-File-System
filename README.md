@@ -5,7 +5,10 @@ A simple FAT based user level file system implementation written in C.
 You need to have a file named 'disk' at the directory where myfs.c is located.
 It can perform following operations: Format, Write, Read, Delete and List.
 
-Compile the source code by using gcc: gcc -o myfs myfs.c -lm
+Compile the source code by using gcc:
+```sh
+gcc -o myfs myfs.c -lm
+```
 
 First format the disk by using -format option: 
 ```sh
